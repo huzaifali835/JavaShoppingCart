@@ -12,6 +12,7 @@ public class Main {
             int userInput = scanner.nextInt();
             switch (userInput) {
                 case 1:
+                    System.out.println("Shopping Cart");
                     System.out.print("Enter product name: ");
                     String name = scanner.next();
                     System.out.print("Enter product price: ");
